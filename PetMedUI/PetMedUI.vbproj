@@ -95,6 +95,7 @@
     <Content Include="CreateOrder.aspx" />
     <Content Include="css\petMedStyles.css" />
     <Content Include="Default.aspx" />
+    <Content Include="ActiveOrders.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -137,6 +138,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ActiveOrders.aspx.designer.vb">
+      <DependentUpon>ActiveOrders.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ActiveOrders.aspx.vb">
+      <DependentUpon>ActiveOrders.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
